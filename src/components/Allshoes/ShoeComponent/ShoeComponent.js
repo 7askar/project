@@ -46,10 +46,10 @@ const ShoeComponent = ({ image, id, title, before, after, category }) => {
       </div>
       <div className="shoeComponent__price">
         <span className="shoeComponent__before">
-          Before: <span className="shoeComponent__beforePrice">Br{before}</span>
+          Before: <span className="shoeComponent__beforePrice">{before}$</span>
         </span>
         <span className="shoeComponent__after">
-          Now: <span className="shoeComponent__afterPrice">Br{after}</span>
+          Now: <span className="shoeComponent__afterPrice">{after}$</span>
         </span>
       </div>
       <span className="shoeComponent__category">{category}</span>
